@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#030d18">
+  <meta name="description" content="Профессиональная переподготовка и повышение квалификации. Дистанционное обучение.">
+  <title>Научно-исследовательский институт — профессиональная переподготовка</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <a class="brand" href="#top" aria-label="Научно-исследовательский институт — главная">
+      <svg class="brand-mark" viewBox="0 0 100 82" aria-hidden="true">
+        <g fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round">
+          <path d="M18 12C8 24 5 40 11 57M25 7C17 22 16 39 21 53M82 12c10 12 13 28 7 45M75 7c8 15 9 32 4 46"/>
+          <path d="M13 23l-7-2 2 8M12 39l-8 1 4 7M18 54l-7 4 7 4M87 23l7-2-2 8M88 39l8 1-4 7M82 54l7 4-7 4"/>
+          <path d="M29 19c8-3 15 0 21 5 6-5 13-8 21-5v37c-8-3-15 0-21 5-6-5-13-8-21-5z"/>
+          <path d="M50 24v37M33 25v26M67 25v26"/>
+        </g>
+      </svg>
+      <span class="brand-copy"><strong>НАУЧНО-ИССЛЕДОВАТЕЛЬСКИЙ<br>ИНСТИТУТ</strong><small>ОБРАЗОВАНИЕ&nbsp; · &nbsp;НАУКА&nbsp; · &nbsp;РАЗВИТИЕ</small></span>
+    </a>
+    <div class="header-actions">
+      <a class="phone" href="tel:+79991234567"><span class="phone-icon">☎</span><span><b>+7 (999) 123-45-67</b><small>Звоните с 9:00 до 21:00</small></span></a>
+      <a class="outline-button" href="#request">Заказать диплом</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-photo" aria-hidden="true"></div>
+      <div class="hero-content">
+        <p class="eyebrow">ПРОФЕССИОНАЛЬНАЯ ПЕРЕПОДГОТОВКА<br>И ПОВЫШЕНИЕ КВАЛИФИКАЦИИ</p>
+        <h1>Получите диплом<br>быстро и официально</h1>
+        <p class="hero-description">Дистанционное обучение. Без отрыва от работы.<br class="desktop-only"> Быстрое оформление. Современные программы<br class="desktop-only"> профессиональной переподготовки и повышения<br class="desktop-only"> квалификации.</p>
+        <a class="gold-button" href="#request">Заказать диплом <span>→</span></a>
+      </div>
+    </section>
+
+    <section class="benefits" aria-label="Преимущества обучения">
+      <article class="benefit">
+        <div class="benefit-icon"><svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="19"/><path d="M24 12v13l9 5"/></svg></div>
+        <h2>Без отрыва<br>от работы</h2>
+        <p>Обучение в удобном<br>формате, совмещайте<br>с работой и личными делами.</p>
+      </article>
+      <article class="benefit">
+        <div class="benefit-icon"><svg viewBox="0 0 48 48"><path d="M27 5L12 26h11l-2 17 15-23H25z"/></svg></div>
+        <h2>Быстрое<br>оформление</h2>
+        <p>Срок получения диплома<br>от 1 недели*</p>
+      </article>
+      <article class="benefit">
+        <div class="benefit-icon"><svg viewBox="0 0 48 48"><rect x="7" y="8" width="34" height="25" rx="2"/><path d="M3 40h42M17 33l-2 7m18-7 2 7"/></svg></div>
+        <h2>Удобный<br>дистанционный формат</h2>
+        <p>Обучение проходит<br>онлайн, без посещения<br>учебного заведения.</p>
+      </article>
+    </section>
+
+    <section class="request" id="request">
+      <div class="request-image" role="img" aria-label="Диплом о профессиональной переподготовке на столе"></div>
+      <div class="request-panel">
+        <div class="form-wrap">
+          <p class="form-eyebrow">ОСТАВЬТЕ ЗАЯВКУ</p>
+          <h2>Получить консультацию<br>и оформить диплом</h2>
+          <p class="form-intro">Заполните форму — мы свяжемся с вами в ближайшее время<br class="desktop-only"> и подберем подходящую программу.</p>
+          <form id="lead-form">
+            <label for="name">ФИО <em>*</em></label>
+            <input id="name" name="name" autocomplete="name" placeholder="Иванов Иван Иванович" required>
+            <label for="phone">Телефон <em>*</em></label>
+            <input id="phone" name="phone" type="tel" autocomplete="tel" placeholder="+7 (999) 123-45-67" required>
+            <label for="email">Email <em>*</em></label>
+            <input id="email" name="email" type="email" autocomplete="email" placeholder="example@mail.ru" required>
+            <label for="direction">Направление обучения <em>*</em></label>
+            <select id="direction" name="direction" required>
+              <option value="" selected disabled>Выберите направление</option>
+              <option>Экономика и бухгалтерский учет</option>
+              <option>Педагогика и образование</option>
+              <option>Охрана труда и безопасность</option>
+              <option>Менеджмент и управление</option>
+              <option>Юриспруденция</option>
+              <option>Другое направление</option>
+            </select>
+            <div class="website-field" aria-hidden="true">
+              <label for="website">Не заполняйте это поле</label>
+              <input id="website" name="website" tabindex="-1" autocomplete="off">
+            </div>
+            <label class="consent-label"><input type="checkbox" name="consent" required> <span>Я согласен(на) на обработку персональных данных и ознакомлен(а) с <a href="privacy.html" target="_blank" rel="noopener">политикой конфиденциальности</a>.</span></label>
+            <button class="submit-button" type="submit">Заказать диплом <span>→</span></button>
+            <p class="privacy"><span>▣</span> Ваши данные передаются только для обработки заявки.</p>
+            <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-main">
+      <a class="brand footer-brand" href="#top">
+        <svg class="brand-mark" viewBox="0 0 100 82" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M18 12C8 24 5 40 11 57M25 7C17 22 16 39 21 53M82 12c10 12 13 28 7 45M75 7c8 15 9 32 4 46M29 19c8-3 15 0 21 5 6-5 13-8 21-5v37c-8-3-15 0-21 5-6-5-13-8-21-5zM50 24v37"/></g></svg>
+        <span class="brand-copy"><strong>НАУЧНО-ИССЛЕДОВАТЕЛЬСКИЙ<br>ИНСТИТУТ</strong></span>
+      </a>
+      <div class="footer-item"><span class="footer-symbol">♧</span><span>Работаем по всей России</span></div>
+      <a class="footer-item" href="mailto:info@institut.ru"><span class="footer-symbol">✉</span><span>info@institut.ru<small>Ответим на все вопросы</small></span></a>
+    </div>
+    <div class="footer-bottom"><span>© 2026 Научно-исследовательский институт. Все права защищены.</span><span>Лицензия на образовательную деятельность № Л035-01234-56/00123456</span></div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
